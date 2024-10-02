@@ -26,7 +26,15 @@ h3 {
     justify-content: space-between;
     align-items: center;
 }
-
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-container img{
+    width: 20%;
+    background-color: white;
+}
 .header .container h1 {
     color: white;
     font-size: 24px;
