@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find My Tutor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -22,7 +23,7 @@
                     <li><a href="#">Find a Teacher 🔎</a></li>
                     <li><a href="#">Become a Tutor 📚</a></li>
                     <li><a href="#">Contact Us 📞</a></li>
-                    <li><a href="#" class="login-btn">Sign Up / Log In</a></li>                    
+                    <li><a href="login.html" class="login-btn">Sign Up / Log In</a></li>                    
                 </ul>
             </nav>
         </div>
@@ -31,7 +32,7 @@
 
     <!-- Hero Section -->
     <section class="hero">
-        <div>
+        <div class="tutoring-banner">
             <img src="images/tutoring.jpg" alt="">
         </div>
         <div class="hero-content">
@@ -39,15 +40,18 @@
             <p>Connect with qualified tutors in your area for personalized learning</p>
             <form class="search-bar">
                 <!-- <input type="text" placeholder="What do you want to learn?"> -->
-                <input type="text" placeholder="Enter your location">
+                <input id="search-input" type="text" placeholder="Enter your location">
                 <button type="submit">Search</button>
             </form>
             <div class="cta-buttons">
-                <a href="#" class="primary-btn">Find a Teacher</a>
-                <a href="#" class="secondary-btn">Become a Tutor</a>
+                <a href="#secondary-btn" class="primary-btn"><label for="search-input">Find a Teacher</label></a>
+                <a href="signup.html" class="secondary-btn" >Become a Tutor</a>
             </div>
         </div>
     </section>
+    <!-- <section class="teacher-section">
+        <div class="teacher-container"></div>
+    </section> -->
 
     <!-- Features Section -->
     <section class="features">

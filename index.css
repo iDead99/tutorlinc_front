@@ -97,6 +97,13 @@ h3 {
     background-color: #FFC107;
     color: #333;
 }
+.teacher-section{
+    padding: 10px 0;
+}
+.teacher-container{
+    border: 2px solid black;
+    height: 40em;
+}
 
 
 /* Hero Animation Styles */

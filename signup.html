@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-TutorLinc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="form-container">
+        <form class="signup-form" method="">
+            <h2>Register an Account</h2>
+
+            <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <span id="email-error" style="color: red;"></span>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="qualification">Qualification</label>
+                <select name="qualification" id="qualification"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" minlength="10" maxlength="10" required >
+            </div>
+
+            <div class="form-group">
+                <label for="link">Link (Any social media link)</label>
+                <input type="text" id="link" name="link" placeholder="Optional" >
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <span id="password-error" style="color: red;"></span>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+
+            <p>Don't have an account? <a href="signin.html">Login</a></p>
+
+            <div id="home-container">
+                <a id="home-link" href="index.html">Home</a>
+            </div>
+        </form>
+    </div>
+<script src="signup.js"></script>
+</body>
+</html>
