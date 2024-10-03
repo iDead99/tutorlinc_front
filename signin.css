@@ -1,6 +1,6 @@
 /* Login Form Styles */
 body, html{
-    overflow: hidden;
+    scroll-behavior: smooth;
 }
 
 .form-container{
